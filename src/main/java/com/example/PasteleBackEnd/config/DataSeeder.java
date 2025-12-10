@@ -98,6 +98,7 @@ public class DataSeeder {
                             "Elegante y deliciosa, esta torta está diseñada para ser el centro de atención en cualquier boda.",
                             false, "/img/tortaboda.jpeg")
             );
+            
 
                         for (Pastel p : pasteles) {
                                 // Si existe, actualiza campos clave (incluida la imagen); si no, crea
@@ -113,6 +114,7 @@ public class DataSeeder {
                         }
         };
     }
+    
 
     private Pastel build(String id, String nombre, String categoria, Double precio,
                          String descripcion, boolean personalizable, String imagen) {
@@ -126,4 +128,6 @@ public class DataSeeder {
         p.setImagen(imagen);
         return p;
     }
+    
 }
+

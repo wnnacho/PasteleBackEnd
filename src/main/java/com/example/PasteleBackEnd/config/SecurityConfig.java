@@ -7,4 +7,6 @@ package com.example.PasteleBackEnd.config;
  */
 public class SecurityConfig {
     // Intencionalmente sin @Configuration ni beans.
+    
 }
+
